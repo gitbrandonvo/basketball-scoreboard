@@ -1,8 +1,76 @@
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FBBF24;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 410px; /* To display buttons below...*/
+    position: absolute;
+}
+
+#home {
+    margin-right: 100px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.score-bg {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    text-align: center;
+}
+
+.score {
+    color: #FBBF24;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    justify-content: space-between;
+}
+
+.buttons button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: black;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#challenges {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#new-game {
+    margin-bottom: 30px;
+}
+
+#leading {
+    border: 2px solid white;
+}
+
+#leading-text {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
 }
